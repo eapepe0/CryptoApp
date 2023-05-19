@@ -42,6 +42,7 @@ const Imagen = styled.img`
   width : 500px;
   margin : 100px auto 0 auto;
   display : block;
+  height : 400px;
   max-height : 60%;
 `
 function App() {
