@@ -38,13 +38,14 @@ const Contenedor = styled.div`
 `
 
 const Imagen = styled.img`
-  max-width : 400px;
-  width : 80%;
+  max-width : 80%;
+  width : 500px;
   margin : 100px auto 0 auto;
   display : block;
+  height : 300px;
 `
 function App() {
-  
+
   const [ monedas, setMonedas ] = useState({})  //* en este estado guardamos un objeto que tiene la seleccion de los select {cryptomoneda : "USDT" , moneda : "USD"}
   const [ cotizacion , setCotizacion ] = useState({}) //* en este estado guardamos un objeto con la respuesta de la API
   const [cargando, setCargando] = useState(false) //* en este estado guardamos si hicimos la peticion a la API y si estamos esperando que termine
